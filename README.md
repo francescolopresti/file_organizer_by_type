@@ -1,54 +1,38 @@
 # File Organizer Script
 
 A Python GUI tool to automatically sort files by type into categorized folders.
-\n\n
 
-📌 Features
-GUI-based (Tkinter) for easy folder selection.
-\n\n
+## 📌 Features
 
-Automatically sorts files into predefined categories:
+- **GUI-based** (Tkinter) for easy folder selection.
 
-📁 Videos (.mp4, .avi, .mov, .mkv, etc.)
+- **Automatically sorts files** into predefined categories:
+  - 📁 **Videos** (`.mp4`, `.avi`, `.mov`, `.mkv`, etc.)
+  - 📁 **Images** (`.jpg`, `.jpeg`, `.png`, `.heic`, `.gif`, etc.)
+  - 📁 **Documents** (`.pdf`, `.docx`, `.xlsx`, `.pptx`, `.txt`, etc.)
+  - 📁 **Executables** (`.exe`, `.msi`, `.bat`, `.sh`, etc.)
+  - 📁 **Audio** (`.mp3`, `.wav`, `.flac`, etc.)
+  - 📁 **Archives** (`.zip`, `.rar`, `.7z`, `.tar`, etc.)
+  - 📁 **Others** (uncategorized files remain in the original folder).
 
-📁 Images (.jpg, .jpeg, .png, .heic, .gif, etc.)
+- **Creates destination folders** if they don't exist.
 
-📁 Documents (.pdf, .docx, .xlsx, .pptx, .txt, etc.)
+- **Lightweight & cross-platform** (works on Windows, macOS, Linux).
 
-📁 Executables (.exe, .msi, .bat, .sh, etc.)
+## 🛠️ How It Works
 
-📁 Audio (.mp3, .wav, .flac, etc.)
+1. **Select a folder** via the GUI.
+2. The script scans for files and **moves them into subfolders** based on their extensions.
+3. **Logs actions** (optional) for tracking changes.
 
-📁 Archives (.zip, .rar, .7z, .tar, etc.)
+## 🚀 Use Cases
 
-📁 Others (uncategorized files remain in the original folder).
-\n\n
+- Quickly declutter your **Downloads** or **Desktop**.
+- Automate file organization on a **Raspberry Pi** or server.
+- Keep project directories clean.
 
-Creates destination folders if they don’t exist.
-\n\n
+## 🔧 Dependencies
 
-Lightweight & cross-platform (works on Windows, macOS, Linux).
-
-\n\n
-🛠️ How It Works
-Select a folder via the GUI.
-
-The script scans for files and moves them into subfolders based on their extensions.
-
-Logs actions (optional) for tracking changes.
-
-\n\n
-🚀 Use Cases
-Quickly declutter your Downloads or Desktop.
-
-Automate file organization on a Raspberry Pi or server.
-
-Keep project directories clean.
-
-\n\n
-🔧 Dependencies
-Python 3.x
-
-tkinter (included in standard library)
-
-shutil (for file operations)
+- Python 3.x
+- `tkinter` (included in standard library)
+- `shutil` (for file operations)
