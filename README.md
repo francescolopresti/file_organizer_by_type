@@ -1,7 +1,7 @@
 # File Organizer Script
 
 A Python GUI tool to automatically sort files by type into categorized folders.
-
+ 
 
 📌 Features
 GUI-based (Tkinter) for easy folder selection.
