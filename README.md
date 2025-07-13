@@ -2,8 +2,10 @@
 
 A Python GUI tool to automatically sort files by type into categorized folders.
 
+
 📌 Features
 GUI-based (Tkinter) for easy folder selection.
+
 
 Automatically sorts files into predefined categories:
 
@@ -21,9 +23,12 @@ Automatically sorts files into predefined categories:
 
 📁 Others (uncategorized files remain in the original folder).
 
+
 Creates destination folders if they don’t exist.
 
+
 Lightweight & cross-platform (works on Windows, macOS, Linux).
+
 
 🛠️ How It Works
 Select a folder via the GUI.
@@ -32,12 +37,14 @@ The script scans for files and moves them into subfolders based on their extensi
 
 Logs actions (optional) for tracking changes.
 
+
 🚀 Use Cases
 Quickly declutter your Downloads or Desktop.
 
 Automate file organization on a Raspberry Pi or server.
 
 Keep project directories clean.
+
 
 🔧 Dependencies
 Python 3.x
