@@ -1,11 +1,11 @@
 # File Organizer Script
 
 A Python GUI tool to automatically sort files by type into categorized folders.
- 
+\n\n
 
 📌 Features
 GUI-based (Tkinter) for easy folder selection.
-
+\n\n
 
 Automatically sorts files into predefined categories:
 
@@ -22,14 +22,14 @@ Automatically sorts files into predefined categories:
 📁 Archives (.zip, .rar, .7z, .tar, etc.)
 
 📁 Others (uncategorized files remain in the original folder).
-
+\n\n
 
 Creates destination folders if they don’t exist.
-
+\n\n
 
 Lightweight & cross-platform (works on Windows, macOS, Linux).
 
-
+\n\n
 🛠️ How It Works
 Select a folder via the GUI.
 
@@ -37,7 +37,7 @@ The script scans for files and moves them into subfolders based on their extensi
 
 Logs actions (optional) for tracking changes.
 
-
+\n\n
 🚀 Use Cases
 Quickly declutter your Downloads or Desktop.
 
@@ -45,7 +45,7 @@ Automate file organization on a Raspberry Pi or server.
 
 Keep project directories clean.
 
-
+\n\n
 🔧 Dependencies
 Python 3.x
 
