@@ -25,6 +25,11 @@ A Python GUI tool to automatically sort files by type into categorized folders.
 2. The script scans for files and **moves them into subfolders** based on their extensions.
 3. **Logs actions** (optional) for tracking changes.
 
+## 🖥️ Screenshot
+Select folder to order and execute:
+![Password Generator Interface](screenshot_1.png) 
+![Password Generator Interface](screenshot.png) 
+
 ## 🚀 Use Cases
 
 - Quickly declutter your **Downloads** or **Desktop**.
