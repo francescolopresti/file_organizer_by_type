@@ -27,8 +27,8 @@ A Python GUI tool to automatically sort files by type into categorized folders.
 
 ## 🖥️ Screenshot
 Select folder to order and execute:
-![Password Generator Interface](screenshot_1.png) 
 ![Password Generator Interface](screenshot.png) 
+![Password Generator Interface](screenshot_1.png) 
 
 ## 🚀 Use Cases
 
